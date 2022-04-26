@@ -19,8 +19,8 @@ namespace MvcMovie.Models
                 {
                     return;   // DB has been seeded
                 }
-
-                context.Movie.AddRange(
+                
+                context.Movie.AddRange(    
                     new Movie
                     {
                         Title = "When Harry Met Sally",
